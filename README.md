@@ -1,2 +1,13 @@
 # babel-transform-rn-react-dom
-在react-native我们需要ReactDOM.unstable_batchedUpdates 但是这个包已经在react-native里面提供了
+
+在react-native我们需要ReactDOM.unstable_batchedUpdates
+
+但是这个包已经在react-native里面提供了
+
+在plume2或者iflux2默认对react-dom依赖unstable_batchedUpdates方法
+
+该方法会解决react中父子组件级联渲染的问题
+
+但是在react-native中并不需要依赖react-dom只需要依赖react-native本身就ok了
+
+所有通过一个babel插件来自动转换
