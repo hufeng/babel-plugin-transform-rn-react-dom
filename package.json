@@ -1,0 +1,19 @@
+{
+  "name": "babel-transform-rn-react-dom",
+  "version": "1.0.0",
+  "description": "replace react-dom => react-native in react-native app",
+  "main": "./lib/index.js",
+  "repository": "https://github.com/hufeng/babel-transform-rn-react-dom.git",
+  "author": "hufeng <hufeng@qianmi.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "npx jest --verbose"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-jest": "^20.0.3",
+    "babel-preset-env": "^1.6.0",
+    "jest": "^20.0.4",
+    "regenerator-runtime": "^0.10.5"
+  }
+}
