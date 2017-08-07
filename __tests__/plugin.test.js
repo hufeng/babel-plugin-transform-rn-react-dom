@@ -3,6 +3,7 @@ const babel = require('babel-core');
 
 const example = `
 import ReactDOM from 'react-dom';
+var ReactDOM1 = require('react-dom');
 `;
 
 it('origin code', () => {
