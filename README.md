@@ -1,4 +1,4 @@
-# babel-transform-rn-react-dom
+# babel-plugin-transform-rn-react-dom
 
 在plume2或者iflux2默认对react-dom依赖unstable_batchedUpdates方法
 
@@ -12,7 +12,7 @@
 # Getting started
 
 ```sh
- yarn add babel-transform-rn-react-dom --dev
+ yarn add babel-plugin-transform-rn-react-dom --dev
 ```
 
 ```javascript
