@@ -1,12 +1,14 @@
 # babel-plugin-transform-rn-react-dom
 
-在plume2或者iflux2默认对react-dom依赖unstable_batchedUpdates方法
+# Why?
+
+在iflux2或者plume2的store.ts中，需要依赖unstable_batchedUpdates方法
 
 该方法会解决react中父子组件级联渲染的问题
 
-但是在react-native中并不需要依赖react-dom只需要依赖react-native本身就ok了
+该方法默认在ReactDOM中提供，在app中react-native中已经暴露了此方法
 
-所有通过一个babel插件来自动转换
+所以提供该插件在app中，将react-dom自动替换为react-native
 
 
 # Getting started
